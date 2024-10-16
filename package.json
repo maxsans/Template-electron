@@ -1,0 +1,48 @@
+{
+  "name": "electron-app",
+  "productName": "electron-app",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.5.0",
+    "@electron-forge/maker-deb": "^7.5.0",
+    "@electron-forge/maker-rpm": "^7.5.0",
+    "@electron-forge/maker-squirrel": "^7.5.0",
+    "@electron-forge/maker-zip": "^7.5.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.5.0",
+    "@electron-forge/plugin-fuses": "^7.5.0",
+    "@electron/asar": "^3.2.0",
+    "@electron/fuses": "^1.8.0",
+    "@npmcli/fs": "^2.0.0",
+    "electron": "32.1.2",
+    "fs-extra": "^11.2.0",
+    "get-folder-size": "^3.0.0",
+    "glob": "^9.0.0",
+    "rimraf": "^4.0.0"
+  },
+  "resolutions": {
+    "glob": "^9.0.0",
+    "rimraf": "^4.0.0",
+    "inflight": "^1.0.6",
+    "@npmcli/move-file": "^2.0.1",
+    "@electron/asar": "^3.2.0",
+    "get-folder-size": "^3.0.0"
+  },
+  "keywords": [],
+  "author": {
+    "name": "menardmax",
+    "email": "maxence.menard@reseau.eseo.fr"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1"
+  }
+}
